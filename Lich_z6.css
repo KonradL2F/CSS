@@ -1,8 +1,12 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-</head>
- <p> color:green;</p>
- </body>
-</html>
+body
+{
+
+ color: blue;
+ font-size: 30px;
+}
+p
+{
+	color: green;
+	font-size: 20px;
+}
 
