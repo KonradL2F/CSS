@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela CSS</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    /* Przykłady uzupełnienia */
+    .color-bg { background-color: #3498db; }
+    .image-bg { background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg"); }
+    .repeat-bg { background-repeat: repeat-x; }
+    .position-bg { background-position: center top; }
+    .attachment-bg { background-attachment: fixed; }
+    .combined-bg { background: #ecf0f1 url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_2.jpg") repeat-y fixed; }
+    .linear-gradient-bg { background: linear-gradient(to right, #ffcc00, #ff6600); }
+    .radial-gradient-bg { background: radial-gradient(circle, #33cc33, #009900); }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <th>Styl Tła</th>
+      <th>Selektor</th>
+      <th>Przykład</th>
+    </tr>
+    <tr>
+      <td>Kolor tła</td>
+      <td>.color-bg</td>
+      <td class="color-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Tło Obrazkowe</td>
+      <td>.image-bg</td>
+      <td class="image-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Powtarzanie tła</td>
+      <td>.repeat-bg</td>
+      <td class="repeat-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Pozycja tła</td>
+      <td>.position-bg</td>
+      <td class="position-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Zaczepienie tła</td>
+      <td>.attachment-bg</td>
+      <td class="attachment-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Łączenie atrybutów tła</td>
+      <td>.combined-bg</td>
+      <td class="combined-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Gradient liniowy</td>
+      <td>.linear-gradient-bg</td>
+      <td class="linear-gradient-bg">Tekst</td>
+    </tr>
+    <tr>
+      <td>Gradient promienisty</td>
+      <td>.radial-gradient-bg</td>
+      <td class="radial-gradient-bg">Tekst</td>
+    </tr>
+  </table>
+
+</body>
+</html>
